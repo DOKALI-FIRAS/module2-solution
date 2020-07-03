@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment Solution for Module 2</title>
+
+
+  <style>
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .box {
+      position: relative;
+      border: 1px solid black;
+      margin: 1px;
+
+    }
+
+    .title {
+      position: absolute;
+      top: 0;
+      right: 0px;
+      border: 1px solid black;
+      width: 150px;
+      height: 25px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 125%;
+      font-family: Helvetica;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align:center;
+      font-family: Helvetica;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 175%;
+      
+    }
+
+    p {
+      margin-bottom: 15px;
+      width: 90%;
+      height: 150px;
+      margin-right: auto;
+      margin-left: auto;
+      font-family: Helvetica;
+      color: white;
+      text-align: justify;
+    }
+
+    #t1 {
+      background-color: palevioletred;
+    }
+
+    #t2 {
+      background-color: rgba(255, 136, 0, 0.897);
+    }
+
+    #t3 {
+      background-color: rgb(0, 204, 255);
+    }
+
+    #p1 {
+      background-color: grey;
+
+      padding-top: 50px;
+      padding-left: 1px;
+      width: 50px;
+      height: 50px;
+
+
+    }
+
+
+    #p2 {
+      background-color: grey;
+
+      padding-top: 50px;
+      padding-left: 1px;
+      width: 50px;
+      height: 50px;
+
+
+
+    }
+
+    #p3 {
+      background-color: grey;
+
+      padding-top: 50px;
+      padding-left: 0px;
+      width: 50px;
+      height: 50px;
+
+
+
+    }
+
+    #Title {
+      width: 100px;
+      height: 30px;
+      border: 1px solid black;
+
+    }
+
+    /* Simple Responsive Framework. */
+    .row {
+      width: 100%;
+    }
+
+
+    /********** Large devices only **********/
+    @media (min-width: 992px) {
+
+      #p1,
+      #p2,
+      #p3 {
+        float: left;
+
+      }
+
+      #p1 {
+        width: 33%;
+        height: 150px;
+      }
+
+      #p2 {
+        width: 33%;
+        height: 150px;
+      }
+
+      #p3 {
+        width: 33%;
+        height: 150px;
+      }
+    }
+
+    /********** Medium devices only **********/
+    @media (min-width: 768px) and (max-width: 991px) {
+
+      #p1,
+      #p2,
+      #p3 {
+        float: left;
+
+      }
+
+      #p1 {
+        width: 49%;
+        height: 150px;
+      }
+
+      #p2 {
+        width: 50%;
+        height: 150px;
+      }
+
+      #p3 {
+        width: 100%;
+        height: 150px;
+      }
+    }
+
+    /********** Mobile  devices only **********/
+    @media (max-width: 767px) {
+
+      #p1,
+      #p2,
+      #p3 {
+        float: left;
+
+      }
+
+      #p1 {
+        width: 100%;
+        height: 150px;
+      }
+
+      #p2 {
+        width: 100%;
+        height: 150px;
+      }
+
+      #p3 {
+        width: 100%;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+
+
+
+
+<body>
+  <h1>Our Menu</h1>
+
+  <div class="box" id="p1">
+    <div class="title" id="t1">Chicken</div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ipsum at
+      perspiciatis voluptatem iure deserunt corrupti ipsa repellat fugiat sit.</p>
+  </div>
+
+  <div class="box" id="p2">
+    <div class="title" id="t2">Beef</div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ipsum at
+      perspiciatis voluptatem iure deserunt corrupti ipsa repellat fugiat sit.</p>
+  </div>
+
+  <div class="box" id="p3">
+    <div class="title" id="t3">Sushi</div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ipsum at
+      perspiciatis voluptatem iure deserunt corrupti ipsa repellat fugiat sit.</p>
+  </div>
+
+
+</body>
+
+</html>
